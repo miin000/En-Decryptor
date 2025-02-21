@@ -1,4 +1,3 @@
-# Encryptor
 # **File Encryption & Decryption Software**
 
 ## **Giới thiệu**

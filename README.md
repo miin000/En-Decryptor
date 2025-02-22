@@ -2,7 +2,10 @@
 
 ## **Giới thiệu**
 
-Phần mềm này giúp người dùng **mã hóa** và **giải mã** các file với **mật khẩu bảo mật**, nhằm bảo vệ dữ liệu cá nhân và tài liệu quan trọng khỏi sự truy cập trái phép. Phần mềm tích hợp trực tiếp vào **Windows File Explorer**, cho phép người dùng thực hiện thao tác mã hóa và giải mã **bằng chuột phải** vào file mong muốn mã hóa hoặc giải mã nếu file đó đã được mã hóa từ trước, không cần mở phần mềm hay công cụ bên ngoài.
+Phần mềm này giúp người dùng **mã hóa** và **giải mã** các file với **mật khẩu bảo mật**, nhằm bảo vệ dữ liệu cá nhân và tài liệu quan 
+trọng khỏi sự truy cập trái phép. Phần mềm tích hợp trực tiếp vào **Windows File Explorer**, 
+cho phép người dùng thực hiện thao tác mã hóa và giải mã **bằng chuột phải** vào file mong muốn mã hóa hoặc giải mã nếu file đó đã được mã hóa từ trước, 
+không cần mở phần mềm hay công cụ bên ngoài.
 
 ## **Mục đích & Lợi ích**
 - **Bảo mật dữ liệu:** Bảo vệ các file khỏi bị truy cập trái phép bằng cách mã hóa chúng với một mật khẩu bảo mật.
@@ -16,19 +19,19 @@ Phần mềm này giúp người dùng **mã hóa** và **giải mã** các file
 ### **Bước 1: Cài đặt phần mềm**
 1. **Tải phần mềm** từ nguồn cung cấp.
 2. **Chạy `file_encryption.exe và file_dedecryption.exe` lần đầu tiên**. Phần mềm sẽ tự động đăng ký vào menu chuột phải của Windows. Bạn chỉ cần chạy phần mềm một lần duy nhất.
-3. Người dùng cần đặt folder gốc ở ổ  **D:**
 
 ### **Bước 2: Mã hóa file**
 1. **Chuột phải** vào file bạn muốn mã hóa.
 2. Chọn **"Encrypt File"** từ menu chuột phải.
 3. **Nhập mật khẩu bảo vệ** cho file.
-4. File sẽ được mã hóa và lưu lại dưới dạng `.enc` (tên file gốc + `.enc`), và chỉ có thể mở lại khi nhập đúng mật khẩu. Mật khẩu sẽ được lưu vào **D:\\Encrypted** và khóa sẽ được lưu vào **D:\Key**
+4. File sẽ được mã hóa và lưu lại dưới dạng `.enc` (tên file gốc + `.enc`), và chỉ có thể mở lại khi nhập đúng mật khẩu. 
+Mật khẩu sẽ được lưu vào **Encrypted** và khóa sẽ được lưu vào **Key**
 
 ### **Bước 3: Giải mã file**
 1. **Chuột phải** vào file mã hóa `.enc`.
 2. Chọn **"Decrypt File"** từ menu chuột phải.
 3. **Nhập mật khẩu** đã sử dụng khi mã hóa file.
-4. File sẽ được giải mã và lưu vào thư mục **D:\\Decrypted**.
+4. File sẽ được giải mã và lưu vào thư mục **Decrypted** cùng thư mục với 2 file exe.
 
 ---
 
@@ -82,7 +85,7 @@ Phần mềm sử dụng một đoạn mã Python để tự động **thêm và
 
 - `file_encryption.exe`: Chương trình chính thực hiện mã hóa và giải mã file.
 - `file_decryption.exe`: Chương trình phụ trợ giải mã các file đã mã hóa.
-- `D:\\Decrypted`: Thư mục mặc định lưu các file giải mã.
+- `Decrypted`: Thư mục mặc định lưu các file giải mã.
 - Các file mã hóa sẽ có phần mở rộng `.enc`.
 
 ---
@@ -107,4 +110,3 @@ Cảm ơn bạn đã sử dụng phần mềm và hy vọng nó sẽ giúp bạn
 
 ---
 **Phát triển bởi Phạm Quang Minh**
-
